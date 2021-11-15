@@ -39,16 +39,16 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/dqautofl_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('©️Channel', url='https://t.me/tg_bots_updates'),
-            InlineKeyboardButton('♻️Group', url='https://t.me/EDIT_REPO')
+            InlineKeyboardButton('©️Channel', url='https://t.me/cinemasstore'),
+            InlineKeyboardButton('♻️Group', url='https://t.me/cinemsastore')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
             ],[
-            InlineKeyboardButton('ᦔꫀꪜ', url='https://t.me/Pro_editor_tg'),
+            InlineKeyboardButton('ᦔꫀꪜ', url='https://t.me/bellari_r_aja'),
             InlineKeyboardButton('Share me🤠', url='https://t.me/share/url?url=https://t.me/dqautofl_bot')
             ],[
-            InlineKeyboardButton('ANNA UPDATES😉', url='https://t.me/team_annaben')
+            InlineKeyboardButton('CINEMA STORE😉', url='https://t.me/cinemasstore')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
